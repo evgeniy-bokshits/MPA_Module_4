@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CartingServiceApi", "CartingApi\CartingServiceApi.csproj", "{2906EA37-502A-444A-B1F6-0597B64720D9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageListener", "MessageListener\MessageListener.csproj", "{7669C939-4E76-47A3-8B31-BA1E89B03B36}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,6 +37,10 @@ Global
 		{2906EA37-502A-444A-B1F6-0597B64720D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2906EA37-502A-444A-B1F6-0597B64720D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2906EA37-502A-444A-B1F6-0597B64720D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7669C939-4E76-47A3-8B31-BA1E89B03B36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7669C939-4E76-47A3-8B31-BA1E89B03B36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7669C939-4E76-47A3-8B31-BA1E89B03B36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7669C939-4E76-47A3-8B31-BA1E89B03B36}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -43,6 +49,7 @@ Global
 		{492403AB-A49E-4786-B89B-31E8FEFE7486} = {8F229B93-70A3-4942-860D-31B691DDD908}
 		{044AAF61-4FE0-4B30-A7D6-1ACC7B133914} = {8F229B93-70A3-4942-860D-31B691DDD908}
 		{E221BBC3-B02A-402C-83A7-2835EE03B826} = {8F229B93-70A3-4942-860D-31B691DDD908}
+		{7669C939-4E76-47A3-8B31-BA1E89B03B36} = {8F229B93-70A3-4942-860D-31B691DDD908}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EDFC0E58-CDA5-46B5-BC71-4B04E7F05B99}

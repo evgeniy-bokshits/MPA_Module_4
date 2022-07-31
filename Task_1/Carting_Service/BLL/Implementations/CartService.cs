@@ -1,11 +1,7 @@
 ﻿using BLL.Interfaces;
 using DAL.Interfaces;
 using DAL.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Newtonsoft.Json;
 
 namespace BLL.Implementations;
 
@@ -37,5 +33,15 @@ public class CartService : ICartService
     public Cart GetCartInfo(string id)
     {
         return _cartRepository.GetCart(id);
+    }
+
+    public void UpdateCartItems(string message)
+    {
+        var item = JsonConvert.DeserializeObject<Item>(message);
+
+        if (item is not null)
+        {
+            // update cart's items. Now it's difficult to write code because we use LiteDb
+        }
     }
 }
